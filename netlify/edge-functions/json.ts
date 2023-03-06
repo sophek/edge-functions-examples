@@ -5,7 +5,7 @@ export default async (request: Request, context: Context) => {
 
   return Response.json({ hello: "world sophek" }, {
     headers: {
-      'Allow-Access-Control-Origin': '*'
+      'Access-Control-Allow-Origin': '*'
     }
   })
 
